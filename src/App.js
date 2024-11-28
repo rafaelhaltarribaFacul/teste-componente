@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navegacao from './Components/Navegacao';
+import Planos from './Components/Planos';
+import Footer from './Components/Footer';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navegacao />
+      <h1>Meu plano</h1>
+      <div>
+        <Planos titulo="Corrida" descricao="Corrida leve de 30 minutos" duracao="30 minutos" />
+        <Planos titulo="Yoga" descricao="Sessão de Yoga de 45 minutos" duracao="45 minutos" />
+      </div>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,65 @@
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Barra de navegação */
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  /* Container principal */
+  .container {
+    padding: 20px;
+  }
+  
+  /* Estilo do título */
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Estilo dos cards */
+  .card {
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título dos cards */
+  .card h3 {
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  /* Grupo de botões */
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Botões */
+  .button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: darkblue;
+  }
+  
